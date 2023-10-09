@@ -3,32 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1.2 HTML</title>
+    <title>1.3 HTML</title>
 </head>
+
+<!--A large portion of this code references the online video in 1.3html self-study resources.-->
+
 <body>
-    <h1>Leah Forrest</h1>
-    <p>Here's my GitHub profile!</p>
-    <h3>https://github.com/leaferst</h3>
-    <p>I'm from this country:</p>
-    <img src="flag.png" alt="USA flag">
-    <p>My hobbies are:</p>
-    <ul>
-        <li>Working out at the gym</li>
-        <li>Wathing anime</li>
-        <li>Spending time with my sisters</li>
-        <li>Playing Jackbox Games with my friends</li>
-        <li>Going out for boba milk teas</li>
-    </ul>
-    <form action="">
-        <ul>
-            <p><label for="fname">First name:</label></p>
-            <p></p><input type="text"></p>
-            <p></p><label for="email">Email:</label></p>
-            <p></p><input type="text"></p>
-            <p></p><label for="comments">Comments (optional):</label></p>
-            <p></p><input type="text"></p>
-            <p></p><input type="submit" value="Submit"></p>
-    </ul>
-    </form>
+    <header>
+        <h1>About Me</h1>
+        <h4>From Leah Forrest for HTML W3Schools Assignment 1.3</h4>
+        <nav>
+            <ul>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#form">Information Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+    <main>
+        <article id="github">
+            <h3>Here's my GitHub profile!</h3>
+            <p>https://github.com/leaferst</p>
+        </article>
+
+        <article id="countryFlag">
+            <h3>I'm from this country:</h3>
+            <img src="flag.png" alt="USA flag" width="250" height="250">
+            <figure>
+                <figcaption>
+                    United States of America
+                </figcaption>
+            </figure>
+        </article>
+
+        <article id="hobbies">
+            <h3>My hobbies are:</h3>
+            <ul>
+                <li>Working out at the gym</li>
+                <li>Wathing anime</li>
+                <li>Spending time with my sisters</li>
+                <li>Playing Jackbox Games with my friends</li>
+                <li>Going out for boba milk teas</li>
+            </ul>
+        </article>
+        
+        <article id="form">
+            <form action="">
+                <ul>
+                    <p><label for="fname">First name:</label></p>
+                    <p></p><input type="text"></p>
+                    <p></p><label for="email">Email:</label></p>
+                    <p></p><input type="text"></p>
+                    <p></p><label for="comments">Comments (optional):</label></p>
+                    <p></p><input type="text"></p>
+                    <p></p><input type="submit" value="Submit"></p>
+            </ul>
+            </form>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p> 
+            &lt;&lt;&lt; &copy; <a href="about.html">Leah Forrest</a> &gt;&gt;&gt;</p>
+        <p>
+            <a href="#">Back to Top
+            </a>
+        </p></p>
+    </footer>
 </body>
 </html>
